@@ -9,3 +9,6 @@ function getUserInfo(user) {
     return `Name: ${user.name}, Age: ${user.age}, Student: ${user.isStudent}, Hobbies: ${user.hobbies.join(", ")}`;
 }
 getUserInfo(user);
+function createCourse() {
+    return { courseName: "TypeScript Basics", duration: 30 };
+}
