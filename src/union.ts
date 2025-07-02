@@ -27,3 +27,5 @@ function getDbId(id: number | string) {
 const data: number[] | string[] = [1, 2, 3,];
 // It is allowed both numbers and strings in a single array
 const data2: (number | string)[] = [1, 2, "3", "4"];
+// It is allowed numbers, strings and boolean in a single array
+const data3: (number | string | boolean)[] = [1, 2, "3", "4", true];

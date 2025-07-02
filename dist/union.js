@@ -9,3 +9,4 @@ function getDbId(id) {
 }
 const data = [1, 2, 3,];
 const data2 = [1, 2, "3", "4"];
+const data3 = [1, 2, "3", "4", true];
